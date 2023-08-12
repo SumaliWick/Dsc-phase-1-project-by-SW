@@ -1,65 +1,42 @@
-# Phase 1 Project
+Final Project Submission: Movie Performance Analysis¶
+Please fill out:
 
-You've made it all the way through the first phase of this course - take a minute to celebrate your awesomeness!
+Student name:Sumali Wickramarachchi
+Student pace: Part time
+Scheduled project review date/time: 12th August 2023
+Instructor name: Rajive Islam
+Blog post URL: N/A
+#Overview
+In this analysis I have conducted a solid evaluation of performance based on the Key Performance Indicators (KPIs) related to the film industry. This evaluation includes analysing performance metrics such as earnings, profitability, and customer ratings, while considering movies released and studio performance within a specific timeframe. Additionally, it provides insights into performance across different genres, volume, and overall industry performance.
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project/master/awesome.gif)
+This analysis entails gathering, processing, and interpreting data to gain insights into various aspects of the film industry's performance. It takes into account approximately 145,000 movies and 260 studios within the timeframe of 2010 to 2018. The results of this analysis would provide Microsoft with relevant insights & recommendations for making informed decisions regarding investing on a new movie studio.
 
-Now you will put your new skills to use with a large end-of-Phase project! This project should take 20 to 30 hours to complete.
+#Evaluation
+Intepreation of results
 
-## Project Overview
+#Box Office Performance Overview:
 
-For this project, you will use exploratory data analysis to generate insights for a business stakeholder.
+It has becomes evident that studios such as BV, WB, Par, and Uni have emerged as prominent contributors to the movie industry, proven by their impressive domestic gross sales figures. Furthermore, when analyzing international markets, a similar trend emerges. In terms of production consistency, Uni, WB, Fox, Sony, and BV studios have demonstrated consistently releasing a substantial number of movies each year, thereby reflecting a sustained and stable output. WB, which has exhibited remarkable growth, 46% increase in total revenue and BV (Buena Vista aka Walt Disney) showed decrease of 10% in gross profit.
 
-### Business Problem
+#Audience Engagement and Satisfaction:
 
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
+WB, BV, Fox, Uni, Par, and Sony shine as the preferred choices for individuals seeking meaningful interactions and avenues to provide valuable feedback. When it comes to movie ratings, BV emerges as a standout performer with an impressive average rating of 6.9 following closely by P/DW and W/B. These ratings not only surpass the industry's average but also reflect the elevated satisfaction levels that audiences experience with the captivating and engaging content produced by these studios.
 
-### The Data
+#Industry Performance & Profitability:
 
-In the folder `zippedData` are movie datasets from:
+In recent years production costs increasing to a remarkable 8 billion in 2018 & gross profit to 2 billion. This substantial increase underscores the industry's resilience and potential for further growth. As per BCG metrix known as a star industry with high growth & high marketshare. From studios, PD/W takes the lead, garnering an impressive 374 million in earnings followed by BV 331 million, Gritindia 234 million and WB stands at notable 137 Million. Studies shows it will take at least 12 years to acquire maturity in the industry to generate postive NPV/ ROI creating own content/ studio without right partnerships often challenging.
 
-* [Box Office Mojo](https://www.boxofficemojo.com/)
-* [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
-* [The Numbers](https://www.the-numbers.com/)
+Profitable Genres: Fiction, Adventure, Sci-Fi, Animation, Comedy, Fantasy, and Drama rise as the major contributors for revenue in the industry. BV seem have a distingused precense in Adventure, Animation, Comedy, Action, Adventure,Sci-Fis. WB seem to thrive Fantasy Genre along with Adventure.
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind (e.g. struggled with the Phase 1 Code Challenge), we recommend you use only the following data files:
+Data Confidence I possess a strong level of confidence in the generalizability of my results beyond the dataset at hand. The completeness of data only applicable to 2018 hence it does not underly changes in industry beyond 2018 where circumstances have diversly changed due to global pandemic,consumer habits, economic situations and changes in streaming platforms.
 
-* imdb.title.basics
-* imdb.title.ratings
-* bom.movie_gross
+Business use of model I believe this model can be adopted to identify performance in film industry as it analyses the key aspects of success to monitor. The measures taken into account are industry leading KPIs on which an investor would be focused on acquiring a new venture.
 
-## Deliverables
+#Conclusions
+Recommendation 1: Focus on acquistion over organic growth as it takes years to get established & face competitive environment. In relation to studio acquisition focus on Studio BV (Buena Vista) as a good choice followed by WB (Warner Bros). BV has more market share (both recent & past), better customer perception & profitability and more animation capability and proven success over creating high ROI titles (Quality vs Quantity). WB has same potential but currently operating slightly lesser scale compared to BV depending on the acquisition budget it would be a good second choice. This will also allow to acquire intellectual properties e.g. movie series with high & consistent revenue potential.
 
-There are three deliverables for this project:
+Recommendation 2: Consider investing more on Action, Adventure, Sci-Fi, Adventure, Animation, Comedy & Drama genres as they can become more profitable and have more revenue generating potential.
 
-* A **GitHub repository**
-* A **Jupyter Notebook**
-* A **non-technical presentation**
+Recommendation 2: Microsoft can bring synergistic benefits to reduce increasing product budgets by introducing new green production techniques driven solutions, better resource management, cost effective equipment and adjusting crew size and skill mix without compromising on the quality and artistic vision of the project .
 
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic for instructions on creating and submitting your deliverables. Refer to the rubric associated with this assignment for specifications describing high-quality deliverables.
-
-### Key Points
-
-* **Your analysis should yield three concrete business recommendations.** The ultimate purpose of exploratory analysis is not just to learn about the data, but to help an organization perform better. Explicitly relate your findings to business needs by recommending actions that you think the business (Microsoft) should take.
-
-* **Communicating about your work well is extremely important.** Your ability to provide value to an organization - or to land a job there - is directly reliant on your ability to communicate with them about what you have done and why it is valuable. Create a storyline your audience (the head of Microsoft's new movie studio) can follow by walking them through the steps of your process, highlighting the most important points and skipping over the rest.
-
-* **Use plenty of visualizations.** Visualizations are invaluable for exploring your data and making your findings accessible to a non-technical audience. Spotlight visuals in your presentation, but only ones that relate directly to your recommendations. Simple visuals are usually best (e.g. bar charts and line graphs), and don't forget to format them well (e.g. labels, titles).
-
-## Getting Started
-
-Please start by reviewing this assignment, the rubric at the bottom of it, and the "Project Submission & Review" page. If you have any questions, please ask your instructor ASAP.
-
-Next, we recommend you check out [the Phase 1 Project Templates and Examples repo](https://github.com/learn-co-curriculum/dsc-project-template) and use the MVP template for your project.
-
-Alternatively, you can fork [the Phase 1 Project Repository](https://github.com/learn-co-curriculum/dsc-phase-1-project), clone it locally, and work in the `student.ipynb` file. Make sure to also add and commit a PDF of your presentation to your repository with a file name of `presentation.pdf`.
-
-## Project Submission and Review
-
-Review the "Project Submission & Review" page in the "Milestones Instructions" topic to learn how to submit your project and how it will be reviewed. Your project must pass review for you to progress to the next Phase.
-
-## Summary
-
-This project will give you a valuable opportunity to develop your data science skills using real-world data. The end-of-phase projects are a critical part of the program because they give you a chance to bring together all the skills you've learned, apply them to realistic projects for a business stakeholder, practice communication skills, and get feedback to help you improve. You've got this!
+As part of the analysis we have not considered other factors that can create a profound impact on studios such as digital and home entertainment, critic reviews, demographics & geographics of consumers, academy awards & nominees. Including most recent data relate to 2019-2022 (post pandemic) and analysing consumer sentiments would further elevate this study's findings.
